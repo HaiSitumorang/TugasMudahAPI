@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\INetCoreAPI.Service.Interface\INetCoreAPI.Service.Interface.csproj" />
+    <ProjectReference Include="..\NetCoreAPI.Data\NetCoreAPI.Data.csproj" />
+    <ProjectReference Include="..\NetCoreAPI.Model\NetCoreAPI.Model.csproj" />
+    <ProjectReference Include="..\NetCoreAPI.Service\NetCoreAPI.Service.csproj" />
+  </ItemGroup>
+
+</Project>
